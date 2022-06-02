@@ -1,49 +1,105 @@
-
-.leftHeader {
-    margin: 5px;
-    vertical-align: middle;
-}
-
-.rightHeader {
-    float: right;
-    margin: 5px;
-    vertical-align: middle;
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .leftSide{
-display: flex;
-align-items: center;
+    width:40%;
+display: inline-block;
+text-align: start;
+}
+
+.leftSide img{
+    width: 8em;
 }
 
 .rightSide{
-display: flex;
-align-items: center;
-/* flex-direction: row-reverse; */
+width: 40%;
+display: inline-block;
+text-align: end;
 }
 
 .UstHeader{
-display: flex;
-justify-content: space-between;
+text-align: center;
+}
+
+.UstHeader a{
+    text-decoration: none;
+    margin:0 0.5em;
+    vertical-align:middle;
+    font-size: smaller;
 }
 
 .UstResim{
-size: 100%;
+size: 110%;
     text-align: center;
 }
 
 .Futbol{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 30%;
     text-align: center;
     margin:0 auto;
 }
 
-.FutbolAltyazi{
-font-weight: bold;
-}
 
 .Takim{
-    width: 150px;
+    display: inline-block;
+    width: 7em;
     font-weight: bold;
+    font-size: 1em;
 }
+
+.Takim img{
+    width: 2em;
+}
+
+.Xbox{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin:0 auto;
+    position: relative;
+    
+}
+.Xbox>div{
+    width: 95%;
+    align-items: center;
+    padding: 1em;
+}
+
+.Xbox img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#AltResim{
+    text-align: center;
+}
+
+#AltResim img{
+    width: 85%;
+    text-align: center;
+}
+
+#AltBaslik{
+    position:absolute;
+    top:-2em;
+    left:0.5em;
+}
+
+.SonLinkler{
+    vertical-align: middle;
+}
+
+.SonLinkler p{
+    display: inline;
+    vertical-align: middle;
+    margin:auto 2em;
+}
+
+.SonLinkler img{
+    vertical-align: middle;
+    margin:auto 0.5em;
+}
+
