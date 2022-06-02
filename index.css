@@ -30,8 +30,11 @@ text-align: center;
 }
 
 .UstResim{
-size: 110%;
     text-align: center;
+}
+
+.UstResim img{
+    width: 85%;
 }
 
 .Futbol{
